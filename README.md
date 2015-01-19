@@ -57,7 +57,7 @@ class Application:
         builder.add_from_file('helloworld.ui')
 
         #3: Create the widget using a master as parent
-        self.mainwindow = builder.get_object('mainwindow', master)
+        self.mainwindow = builder.get_object('mainframe', master)
 
 
 if __name__ == '__main__':
