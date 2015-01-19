@@ -13,7 +13,7 @@ Pygubu is inspired by Glade.
 Installation
 ============
 
-Pygubu requires python >= 2.7 (Tested only in python 2.7.3 and 3.2.3 with tk8.5)
+Pygubu requires python >= 2.6 (Tested only in python 2.6 and 3.2.3 with tk8.5)
 
 Using zip tarball:
 
@@ -43,7 +43,7 @@ your aplication script as shown below:
 
 ```python
 #test.py
-import tkinter as tk
+import Tkinter as tk
 import pygubu
 
 
@@ -78,6 +78,7 @@ See the examples directory or watch this hello world example on [video](http://y
 
 History
 =======
+Added support to python 2.6
 
 Changes for version 0.9.6.7
 
